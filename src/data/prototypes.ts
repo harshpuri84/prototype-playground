@@ -9,6 +9,7 @@ export interface Prototype {
   status: 'deployed' | 'local-only';
   url?: string;
   builtWith?: 'Bolt' | 'Lovable' | 'Custom' | 'Python';
+  githubUrl?: string;
 }
 
 export const categories: Category[] = ['All', 'Dashboard', 'Web App', 'AI / ML', 'Analytics'];
@@ -24,6 +25,7 @@ export const prototypes: Prototype[] = [
     status: 'deployed',
     url: 'https://bosch-iftsta-dashboard.vercel.app',
     builtWith: 'Custom',
+    githubUrl: 'https://github.com/harshpuri84/bosch-iftsa-error-report',
   },
   {
     id: 'bosch-milestone',
@@ -35,6 +37,7 @@ export const prototypes: Prototype[] = [
     status: 'deployed',
     url: 'https://bosch-milestone-analysis.vercel.app',
     builtWith: 'Python',
+    githubUrl: 'https://github.com/harshpuri84/bosch-milestone-analysis',
   },
   {
     id: 'driver-status',
@@ -46,6 +49,7 @@ export const prototypes: Prototype[] = [
     status: 'deployed',
     url: 'https://driver-status-link-p-chwi.bolt.host',
     builtWith: 'Bolt',
+    githubUrl: 'https://github.com/harshpuri84/driver-status-link',
   },
   {
     id: 'milestone-connect',
@@ -57,6 +61,7 @@ export const prototypes: Prototype[] = [
     status: 'deployed',
     url: 'https://maersk-milestone-con-48za.bolt.host',
     builtWith: 'Bolt',
+    githubUrl: 'https://github.com/harshpuri84/milestone-connect-ai-mvp',
   },
   {
     id: 'cargox',
@@ -68,6 +73,7 @@ export const prototypes: Prototype[] = [
     status: 'deployed',
     url: 'https://cargox-freight-platform.vercel.app/',
     builtWith: 'Custom',
+    githubUrl: 'https://github.com/harshpuri84/cargox-freight-platform',
   },
   {
     id: 'cargox-reimagined-poc',
@@ -79,6 +85,7 @@ export const prototypes: Prototype[] = [
     status: 'deployed',
     url: 'https://frontend-zeta-mocha-41.vercel.app/',
     builtWith: 'Custom',
+    githubUrl: 'https://github.com/harshpuri84/cargox-reimagined-poc',
   },
   {
     id: 'rfq-analyzer',
@@ -89,6 +96,7 @@ export const prototypes: Prototype[] = [
     techStack: ['Python', 'openpyxl', 'PDF Parsing'],
     status: 'local-only',
     builtWith: 'Python',
+    githubUrl: 'https://github.com/harshpuri84/rfq-contract-analyzer',
   },
   {
     id: 'ai-consol-planning',
@@ -100,6 +108,7 @@ export const prototypes: Prototype[] = [
     status: 'deployed',
     url: 'https://voyage-clarity-ai.lovable.app',
     builtWith: 'Lovable',
+    githubUrl: 'https://github.com/harshpuri84/voyage-clarity-ai',
   },
   {
     id: 'huddle-dashboard',
@@ -111,5 +120,6 @@ export const prototypes: Prototype[] = [
     status: 'deployed',
     url: 'https://huddle-dashboard.netlify.app',
     builtWith: 'Bolt',
+    githubUrl: 'https://github.com/harshpuri84/huddle-dashboard',
   },
 ];
